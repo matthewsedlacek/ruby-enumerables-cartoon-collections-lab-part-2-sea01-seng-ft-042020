@@ -19,6 +19,8 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   array.select do |string|
+    array.count >4
+  end
 end
 
 def find_valid_calls(planeteer_calls)
